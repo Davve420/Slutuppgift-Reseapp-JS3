@@ -27,12 +27,6 @@ Landdata använder countries.dev enligt grundkravet G. REST Countries v5 och de 
 
 ## Länkar
 
-- [x] `npm run build` går igenom.
-- [x] Manuellt provat sökning, regionfilter, detaljsida, tillbaka-navigering, ogiltig landskod, 404 och 375 px utan horisontell scroll.
-- [ ] Publicera appen på Netlify eller Vercel och lägg in den publika **app-URL:en** här. GitHub-adressen är bara källkodsrepo.
-- [ ] Lägg upp koden på GitHub, skapa minst 10 meningsfulla commits och mergea minst en feature-branch via pull request. GitHub-repot är för närvarande tomt, så detta behöver göras på riktigt; historiken ska inte fejkas.
-- [ ] Skriv en personlig reflektion på 3–5 meningar.
-
 **GitHub:** [Davve420/Slutuppgift-Reseapp-JS3](https://github.com/Davve420/Slutuppgift-Reseapp-JS3)
 **Deployment:** https://varldsvan.netlify.app/
 
