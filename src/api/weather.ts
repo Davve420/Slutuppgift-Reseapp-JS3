@@ -15,6 +15,7 @@ export interface CurrentWeather {
   icon: string;
 }
 
+// Open-Meteo skickar WMO-sifferkoder; appen visar dem som svensk text och ikon.
 const WEATHER_DESCRIPTIONS: Record<number, { description: string; icon: string }> = {
   0: { description: "Klart", icon: "☀️" },
   1: { description: "Mestadels klart", icon: "🌤️" },
@@ -59,6 +60,7 @@ function isCoordinates(value: unknown): value is Coordinates {
 }
 
 async function getCapitalCoordinates(country: CountryDetails): Promise<Coordinates> {
+  // hitta huvudstaden med landskod så orter med samma namn inte blandas ihop.
   if (country.capital && country.alpha2Code) {
     const search = new URLSearchParams({
       name: country.capital,
@@ -86,6 +88,7 @@ async function getCapitalCoordinates(country: CountryDetails): Promise<Coordinat
   }
 
   if (country.coordinates) {
+    // Reserv om huvudstaden inte kunde hittas – använd landets egna koordinater.
     const [latitude, longitude] = country.coordinates;
     return { latitude, longitude };
   }
