@@ -28,7 +28,7 @@ Landdata använder countries.dev enligt grundkravet G. REST Countries v5 och de 
 ## Länkar
 
 - **GitHub:** [Davve420/Slutuppgift-Reseapp-JS3](https://github.com/Davve420/Slutuppgift-Reseapp-JS3)
-- **Publik app:** Inte publicerad ännu.
+- **Publik app:** https://varldsvan.netlify.app/
 
 ## AI-redovisning
 
