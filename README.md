@@ -34,7 +34,7 @@ Projektet använder countries.dev enligt grundkravet G. VG-kravet med REST Count
 - [ ] Skriv en personlig reflektion på 3–5 meningar.
 
 **GitHub:** [Davve420/Slutuppgift-Reseapp-JS3](https://github.com/Davve420/Slutuppgift-Reseapp-JS3)
-**Deployment:** Inte publicerad ännu.
+**Deployment:** https://varldsvan.netlify.app/
 
 ## AI-redovisning
 
