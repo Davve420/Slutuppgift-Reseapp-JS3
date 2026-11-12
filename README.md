@@ -54,3 +54,15 @@ Skriv här 3–5 egna meningar om vad som gick bra, vad som var svårast och vad
 6. **8:30–10:00 – Egen reflektion och frågor:** berätta vad som gick bra, vad som var svårast och vad du skulle ändra nästa gång.
 
 Öva en gång med appen redan laddad och förklara med egna ord. Visa bara kodfiler om det hjälper att förklara ett val: `src/pages/CountryListPage.tsx`, `src/pages/CountryDetailPage.tsx`, `src/api/countries.ts` och `src/api/weather.ts`.
+
+### Snabba demo-URL:er
+
+Lägg sökvägen efter `http://localhost:5173` när utvecklingsservern kör:
+
+- `/?query=fin&region=Europe` – visar Finland direkt i listan.
+- `/?query=zzz` – visar meddelandet för tomt sökresultat.
+- `/country/FIN?query=fin&region=Europe` – öppnar Finland och bevarar listans filter för tillbaka-länken.
+- `/country/XYZ` – visar felhanteringen för en okänd landskod.
+- `/finns-inte` – visar appens 404-sida.
+
+Öppna gärna Finland-länken i en ny flik under redovisningen för att visa att URL:en går att ladda om och dela.
